@@ -1,5 +1,10 @@
 <?php
 
+//import database.php
+
+require get_template_directory() . '/inc/database.php';
+require get_template_directory() . '/inc/reservations.php';
+
 function lapizzeria_styles() {
     //adding stylesheets
 

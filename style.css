@@ -650,7 +650,7 @@ form.wp-block-search .wp-block-search__input {
 }
 
 .submit {
-  padding: 10px 20px;
+  padding: 15px 30px;
   border: none;
   background-color: #a61206;
   font-weight: 700;
@@ -696,4 +696,43 @@ form.wp-block-search .wp-block-search__input {
 
 .comment ul.children li {
   background: #fff;
+}
+
+/* Reservation - Contact Us */
+.reservation {
+  background-image: url('img/bg_contact.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+@media screen and (min-width: 768px) {
+  .reservation-form {
+    margin-left: 50%;
+  }
+}
+
+.reservation-form h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.reservation-form .field {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.reservation-form .field input,
+.reservation-form .field textarea {
+  width: 100%;
+  border: 3px solid #333;
+  padding: 15px 10px;
+  outline: none;
+  color: #333;
+}
+
+.reservation-form .field textarea {
+  height: 200px;
+}
+
+.reservation-form input[type='submit'] {
+  margin: 0;
 }
